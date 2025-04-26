@@ -1,6 +1,12 @@
 .product-item{
+    display: flex;
+    flex-direction: column;
     border: 2px solid #4A102A;
 }
 .product-price{
     display: block;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
 }
