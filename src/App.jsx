@@ -1,15 +1,9 @@
-function App() {
-  let content = "Bu bir react egitimidir";
-  function handleClick() {
-    content = "Bu bir react egitimidir";
-    console.log(content);
-    
-  }
+import PruductItem from "./Productitem";
 
+function App() {
   return (
     <div>
-      <h1>Bu Bir JavaScript Egitimidir</h1>
-      <button onClick={handleClick}>Degistir</button>
+      <PruductItem />
     </div>
   );
 }
